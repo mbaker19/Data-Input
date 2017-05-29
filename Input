@@ -1,0 +1,16 @@
+def data():
+    add= 0
+    result= []
+    go= True
+    while go:
+        try:
+            g= int(input("Enter number: "))
+            result.append(g)
+        except:
+            go= False
+            for i in result:
+                add += i
+     add= (add, result)
+     add= list(add)
+     return add
+              
