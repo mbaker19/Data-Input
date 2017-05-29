@@ -10,7 +10,7 @@ def data():
             go= False
             for i in result:
                 add += i
-     add= (add, result)
+     add= (add, result, add/ len(result))
      add= list(add)
      return add
               
