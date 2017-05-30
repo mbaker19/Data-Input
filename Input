@@ -11,6 +11,5 @@ def data():
             for i in result:
                 add += i
      add= (add, result, add/ len(result))
-     add= list(add)
-     return add
+     return list(add)
               
